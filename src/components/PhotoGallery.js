@@ -4,98 +4,98 @@ import Measure from 'react-measure';
 import Lightbox from 'react-images';
 
 const photos = [
-  { src: '/assets/studio/02_512.jpg', width: 4, height: 4 },
-  { src: '/assets/studio/03_512.jpg', width: 2, height: 2 },
-  { src: '/assets/studio/05_512.jpg', width: 2, height: 2 },
-  { src: '/assets/studio/06_512.jpg', width: 3, height: 3 },
-  { src: '/assets/studio/07_512.jpg', width: 3, height: 3 },
-  { src: '/assets/studio/08_512.jpg', width: 3, height: 3 },
-  { src: '/assets/studio/09_512.jpg', width: 3, height: 3 },
-  { src: '/assets/studio/10_512.jpg', width: 3, height: 3 },
-  { src: '/assets/studio/11_512.jpg', width: 3, height: 3 },
-  { src: '/assets/studio/12_512.jpg', width: 3, height: 3 },
-  { src: '/assets/studio/13_512.jpg', width: 3, height: 3 },
-  { src: '/assets/studio/14_512.jpg', width: 3, height: 3 },
-  { src: '/assets/studio/15_512.jpg', width: 3, height: 3 },
-  { src: '/assets/studio/16_512.jpg', width: 3, height: 3 },
-  { src: '/assets/studio/17_512.jpg', width: 3, height: 3 },
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/02_512.jpg', width: 4, height: 4 },
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/03_512.jpg', width: 2, height: 2 },
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/05_512.jpg', width: 2, height: 2 },
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/06_512.jpg', width: 3, height: 3 },
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/07_512.jpg', width: 3, height: 3 },
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/08_512.jpg', width: 3, height: 3 },
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/09_512.jpg', width: 3, height: 3 },
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/10_512.jpg', width: 3, height: 3 },
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/11_512.jpg', width: 3, height: 3 },
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/12_512.jpg', width: 3, height: 3 },
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/13_512.jpg', width: 3, height: 3 },
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/14_512.jpg', width: 3, height: 3 },
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/15_512.jpg', width: 3, height: 3 },
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/16_512.jpg', width: 3, height: 3 },
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/17_512.jpg', width: 3, height: 3 },
 ];
 
 const lightboxPhotos = [
-  { src: '/assets/studio/02_1024.jpg', srcSet: [
-    '/assets/studio/02_1024.jpg 1024w',
-    '/assets/studio/02_512.jpg 512w',
-    '/assets/studio/02_256.jpg 256w'
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/02_1024.jpg', srcSet: [
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/02_1024.jpg 1024w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/02_512.jpg 512w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/02_256.jpg 256w'
   ] },
-  { src: '/assets/studio/03_1024.jpg', srcSet: [
-    '/assets/studio/03_1024.jpg 1024w',
-    '/assets/studio/03_512.jpg 512w',
-    '/assets/studio/03_256.jpg 256w'
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/03_1024.jpg', srcSet: [
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/03_1024.jpg 1024w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/03_512.jpg 512w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/03_256.jpg 256w'
   ] },
-  { src: '/assets/studio/05_1024.jpg', srcSet: [
-    '/assets/studio/05_1024.jpg 1024w',
-    '/assets/studio/05_512.jpg 512w',
-    '/assets/studio/05_256.jpg 256w'
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/05_1024.jpg', srcSet: [
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/05_1024.jpg 1024w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/05_512.jpg 512w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/05_256.jpg 256w'
   ] },
-  { src: '/assets/studio/06_1024.jpg', srcSet: [
-    '/assets/studio/06_1024.jpg 1024w',
-    '/assets/studio/06_512.jpg 512w',
-    '/assets/studio/06_256.jpg 256w'
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/06_1024.jpg', srcSet: [
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/06_1024.jpg 1024w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/06_512.jpg 512w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/06_256.jpg 256w'
   ] },
-  { src: '/assets/studio/07_1024.jpg', srcSet: [
-    '/assets/studio/07_1024.jpg 1024w',
-    '/assets/studio/07_512.jpg 512w',
-    '/assets/studio/07_256.jpg 256w'
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/07_1024.jpg', srcSet: [
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/07_1024.jpg 1024w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/07_512.jpg 512w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/07_256.jpg 256w'
   ] },
-  { src: '/assets/studio/08_1024.jpg', srcSet: [
-    '/assets/studio/08_1024.jpg 1024w',
-    '/assets/studio/08_512.jpg 512w',
-    '/assets/studio/08_256.jpg 256w'
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/08_1024.jpg', srcSet: [
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/08_1024.jpg 1024w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/08_512.jpg 512w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/08_256.jpg 256w'
   ] },
-  { src: '/assets/studio/09_1024.jpg', srcSet: [
-    '/assets/studio/09_1024.jpg 1024w',
-    '/assets/studio/09_512.jpg 512w',
-    '/assets/studio/09_256.jpg 256w'
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/09_1024.jpg', srcSet: [
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/09_1024.jpg 1024w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/09_512.jpg 512w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/09_256.jpg 256w'
   ] },
-  { src: '/assets/studio/10_1024.jpg', srcSet: [
-    '/assets/studio/10_1024.jpg 1024w',
-    '/assets/studio/10_512.jpg 512w',
-    '/assets/studio/10_256.jpg 256w'
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/10_1024.jpg', srcSet: [
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/10_1024.jpg 1024w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/10_512.jpg 512w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/10_256.jpg 256w'
   ] },
-  { src: '/assets/studio/11_1024.jpg', srcSet: [
-    '/assets/studio/11_1024.jpg 1024w',
-    '/assets/studio/11_512.jpg 512w',
-    '/assets/studio/11_256.jpg 256w'
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/11_1024.jpg', srcSet: [
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/11_1024.jpg 1024w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/11_512.jpg 512w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/11_256.jpg 256w'
   ] },
-  { src: '/assets/studio/12_1024.jpg', srcSet: [
-    '/assets/studio/12_1024.jpg 1024w',
-    '/assets/studio/12_512.jpg 512w',
-    '/assets/studio/12_256.jpg 256w'
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/12_1024.jpg', srcSet: [
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/12_1024.jpg 1024w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/12_512.jpg 512w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/12_256.jpg 256w'
   ] },
-  { src: '/assets/studio/13_1024.jpg', srcSet: [
-    '/assets/studio/13_1024.jpg 1024w',
-    '/assets/studio/13_512.jpg 512w',
-    '/assets/studio/13_256.jpg 256w'
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/13_1024.jpg', srcSet: [
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/13_1024.jpg 1024w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/13_512.jpg 512w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/13_256.jpg 256w'
   ] },
-  { src: '/assets/studio/14_1024.jpg', srcSet: [
-    '/assets/studio/14_1024.jpg 1024w',
-    '/assets/studio/14_512.jpg 512w',
-    '/assets/studio/14_256.jpg 256w'
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/14_1024.jpg', srcSet: [
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/14_1024.jpg 1024w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/14_512.jpg 512w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/14_256.jpg 256w'
   ] },
-  { src: '/assets/studio/15_1024.jpg', srcSet: [
-    '/assets/studio/15_1024.jpg 1024w',
-    '/assets/studio/15_512.jpg 512w',
-    '/assets/studio/15_256.jpg 256w'
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/15_1024.jpg', srcSet: [
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/15_1024.jpg 1024w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/15_512.jpg 512w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/15_256.jpg 256w'
   ] },
-  { src: '/assets/studio/16_1024.jpg', srcSet: [
-    '/assets/studio/16_1024.jpg 1024w',
-    '/assets/studio/16_512.jpg 512w',
-    '/assets/studio/16_256.jpg 256w'
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/16_1024.jpg', srcSet: [
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/16_1024.jpg 1024w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/16_512.jpg 512w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/16_256.jpg 256w'
   ] },
-  { src: '/assets/studio/17_1024.jpg', srcSet: [
-    '/assets/studio/17_1024.jpg 1024w',
-    '/assets/studio/17_512.jpg 512w',
-    '/assets/studio/17_256.jpg 256w'
+  { src: 'http://newswim.github.io/infinite_ohm_new/assets/studio/17_1024.jpg', srcSet: [
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/17_1024.jpg 1024w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/17_512.jpg 512w',
+    'http://newswim.github.io/infinite_ohm_new/assets/studio/17_256.jpg 256w'
   ] },
 ]
 

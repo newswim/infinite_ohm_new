@@ -6,7 +6,7 @@ const Img = styled.img`
 `
 
 const Home = () => <div>
-    <Img src="assets/studio/01_1024.jpg" />
+    <Img src="http://newswim.github.io/infinite_ohm_new/assets/studio/01_1024.jpg" />
 </div>
 
 export default Home
