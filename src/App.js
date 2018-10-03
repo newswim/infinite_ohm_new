@@ -24,14 +24,16 @@ const Inner = styled.div`
   width: 100%;
 `
 
+const NotFound = () => <h3>••åß˜µ√∫åßµ˜œ´ø˚¬œ ... something happened.</h3>
+
 class App extends Component {
   render() {
     return (
       <Wrapper>
         <Nav />
         <Inner>
-          <Router>
-            <Home path="/" />
+          <Router basename={process.env.PUBLIC_URL}>
+            <Home path="/" default />
             <About path="/about" />
             <EquipmentTable path="/equipment" />
             <Sights path="/sights" />
