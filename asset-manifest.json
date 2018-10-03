@@ -1,6 +1,13 @@
 {
-  "main.css": "static/css/main.5790888b.css",
-  "main.css.map": "static/css/main.5790888b.css.map",
-  "main.js": "static/js/main.360f1bf6.js",
-  "main.js.map": "static/js/main.360f1bf6.js.map"
+  "main.css": "/infinite_ohm_new/static/css/main.faa3537a.chunk.css",
+  "main.js": "/infinite_ohm_new/static/js/main.7daac142.chunk.js",
+  "main.js.map": "/infinite_ohm_new/static/js/main.7daac142.chunk.js.map",
+  "static/js/1.4cb4f162.chunk.js": "/infinite_ohm_new/static/js/1.4cb4f162.chunk.js",
+  "static/js/1.4cb4f162.chunk.js.map": "/infinite_ohm_new/static/js/1.4cb4f162.chunk.js.map",
+  "runtime~main.js": "/infinite_ohm_new/static/js/runtime~main.03ade19e.js",
+  "runtime~main.js.map": "/infinite_ohm_new/static/js/runtime~main.03ade19e.js.map",
+  "static/css/main.faa3537a.chunk.css.map": "/infinite_ohm_new/static/css/main.faa3537a.chunk.css.map",
+  "index.html": "/infinite_ohm_new/index.html",
+  "precache-manifest.46da72db4d04506cb30b46c8e615d827.js": "/infinite_ohm_new/precache-manifest.46da72db4d04506cb30b46c8e615d827.js",
+  "service-worker.js": "/infinite_ohm_new/service-worker.js"
 }
