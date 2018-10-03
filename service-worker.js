@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/infinite_ohm_new/precache-manifest.1410cd6a1544b45ebb9d3fc86873716b.js"
+  "/infinite_ohm_new/precache-manifest.4458610166662cc214f7d5bc13e91142.js"
 );
 
 workbox.clientsClaim();
