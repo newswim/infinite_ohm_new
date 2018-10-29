@@ -99,7 +99,7 @@ export default class NavBar extends React.Component {
             Ohm Records
           </External>
         </Nav>
-        <Link to="/">
+        <Link to={process.env.PUBLIC_URL + "/"}>
           <LogoContainer>
             <Logo />
           </LogoContainer>
