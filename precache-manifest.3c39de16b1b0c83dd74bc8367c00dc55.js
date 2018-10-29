@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/infinite_ohm_new/static/js/runtime~main.03ade19e.js"
   },
   {
-    "revision": "661c22a617aa1b737aae",
-    "url": "/infinite_ohm_new/static/js/main.661c22a6.chunk.js"
+    "revision": "4f6f8f24c71368dff1e3",
+    "url": "/infinite_ohm_new/static/js/main.4f6f8f24.chunk.js"
   },
   {
     "revision": "b81000673cd510d02d9a",
     "url": "/infinite_ohm_new/static/js/1.b8100067.chunk.js"
   },
   {
-    "revision": "661c22a617aa1b737aae",
+    "revision": "4f6f8f24c71368dff1e3",
     "url": "/infinite_ohm_new/static/css/main.faa3537a.chunk.css"
   },
   {
-    "revision": "454551e405010bc2688bf3169e7ae1ea",
+    "revision": "f64c402864c5d7d1833e88b12dbfa78e",
     "url": "/infinite_ohm_new/index.html"
   }
 ];
