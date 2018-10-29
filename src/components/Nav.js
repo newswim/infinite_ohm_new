@@ -79,16 +79,16 @@ export default class NavBar extends React.Component {
     return (
       <Section>
         <Nav>
-          <NavLink to="/about" color="yellow">
+          <NavLink to={process.env.PUBLIC_URL + "/about"} color="yellow">
             About
           </NavLink>
-          <NavLink to="/sights" color="turquoise">
+          <NavLink to={process.env.PUBLIC_URL + "/sights"} color="turquoise">
             Sights
           </NavLink>
-          <NavLink to="/equipment" color="blue">
+          <NavLink to={process.env.PUBLIC_URL + "/equipment"} color="blue">
             Equipment
           </NavLink>
-          <NavLink to="/artists" color="lightblue">
+          <NavLink to={process.env.PUBLIC_URL + "/artists"} color="lightblue">
             Artists
           </NavLink>
           <External
