@@ -6,3 +6,5 @@
 
 TODO:
 - Compress the photos
+- Ditch the router and just make a parent controller for displaying "views"
+- Should also allow for lazy loading

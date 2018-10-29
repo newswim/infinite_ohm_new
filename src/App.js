@@ -9,6 +9,7 @@ import {
   About,
   Artists,
   Home,
+  NotFound,
   Releases,
   Sights
 } from './pages'
@@ -24,8 +25,6 @@ const Inner = styled.div`
   width: 100%;
 `
 
-const NotFound = () => <h3>••åß˜µ√∫åßµ˜œ´ø˚¬œ ... something happened.</h3>
-
 class App extends Component {
   render() {
     return (
@@ -33,12 +32,13 @@ class App extends Component {
         <Nav />
         <Inner>
           <Router basename={process.env.PUBLIC_URL}>
-            <Home path="/" default />
-            <About path="/about" />
-            <EquipmentTable path="/equipment" />
-            <Sights path="/sights" />
-            <Artists path="/artists" />
-            <Releases path="/releases" />
+            <NotFound default />
+            <About path={process.env.PUBLIC_URL + '/about'} />
+            <Artists path={process.env.PUBLIC_URL + '/artists'} />
+            <EquipmentTable path={process.env.PUBLIC_URL + '/equipment'} />
+            <Releases path={process.env.PUBLIC_URL + '/releases'} />
+            <Sights path={process.env.PUBLIC_URL + '/sights'} />
+            <Home path={process.env.PUBLIC_URL + '/'} />
           </Router>
         </Inner>
       </Wrapper>

@@ -136,11 +136,16 @@ const Heading = styled.h3`
 const Li = styled.li`
   list-style-type: none;
   font-size: 19px;
+  color: #bdd5f3;
+`
+
+const Wrap = styled.div`
+  padding: 1em;
 `
 
 const EquipmentTable = () => {
   return (
-    <div>
+    <Wrap>
       {equipment.map((item, i) => {
         return (
           <div key={i}>
@@ -153,7 +158,7 @@ const EquipmentTable = () => {
           </div>
         )
       })}
-    </div>
+    </Wrap>
   )
 }
 
